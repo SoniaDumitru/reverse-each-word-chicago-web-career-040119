@@ -5,11 +5,11 @@
 #  reversed.join(" ")
 #end
 
-def reverse_each_word(sentence)
-      array = sentence.split(" ")
+def reverse_each_word(string)
+      array = string.split(" ")
       new_sentence = []
     array.each do |word|
-      sentence = word.reverse
+      string = word.reverse
       new_sentence << new_word
   end
       new_sentence.join(" ")
