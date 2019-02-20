@@ -5,11 +5,13 @@
 #  reversed.join(" ")
 #end
 
-def reverse_each_word(string)
-      string = string.split(" ")
-      new_sentence = []
-    string.each do |word|
-      new_sentence.unshift(word)
-  end
-      return new_sentence.join(" ")
+def reverse(string)
+ string = string.split('')
+ reversed_string = []
+ 
+ string.each do |char|
+  reversed_string.unshift(char)
+ end
+ 
+ return reversed_string.join('')
 end
