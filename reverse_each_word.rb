@@ -6,7 +6,7 @@
 #end
 
 def reverse_each_word(string)
-      array = string.split(" ")
+      string = string.split(" ")
       new_sentence = []
     string.each do |word|
       string = word.reverse
