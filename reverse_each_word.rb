@@ -6,7 +6,7 @@
 #end
 
 def reverse(string)
- string = string.split('')
+ string = string.split(" ")
  reversed_string = []
 
  string.each do |char|
